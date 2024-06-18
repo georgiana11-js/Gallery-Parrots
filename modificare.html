@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Parrots</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            width: 100%;
+        }
+        .gallery-item {
+            background-color: white;
+            border: 1px solid #ccc;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+        }
+        .gallery-item h2 {
+            font-size: 1.2em;
+            margin: 10px 0 5px 0;
+        }
+        .gallery-item p {
+            color: #666;
+            font-size: 0.9em;
+        }
+        @media (max-width: 768px) {
+            .gallery-item {
+                width: calc(33.33% - 40px);
+            }
+        }
+        @media (max-width: 480px) {
+            .gallery-item {
+                width: calc(50% - 40px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Gallery Parrots</h1>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="image1.jpg" alt="Parrots">
+                <h2>Parrots</h2>
+            </div>
+            <div class="gallery-item">
+                <img src="image2.jpg" alt="Parrots">
+                <h2>Parrots</h2>
+            </div>
+            <div class="gallery-item">
+                <img src="image3.jpg" alt="Parrot">
+                <h2>Parrot</h2>
+            </div>
+            <div class="gallery-item">
+                <img src="image4.jpg" alt="Parrot">
+                <h2>Parrot</h2>
+            </div>
+            <div class="gallery-item">
+                <img src="image5.jpg" alt="Parrot">
+                <h2>Parrot</h2>
+            </div>
+            <div class="gallery-item">
+                <img src="image6.jpg" alt="Parrots">
+                <h2>Parrots</h2>
+            </div>
+            <div class="gallery-item">
+                <img src="image7.jpg" alt="Parrots">
+                <h2>Parrots</h2>
+            </div>
+            <div class="gallery-item">
+                <img src="image8.jpg" alt="Parrot">
+                <h2>Parrot</h2>
+            </div>
+            <div class="gallery-item">
+                <img src="image9.jpg" alt="Parrots">
+                <h2>Parrots</h2>
+            </div>
+            <div class="gallery-item">
+                <img src="image10.jpg" alt="Parrot">
+                <h2>Parrot</h2>
+            </div>
+        </div>
+        <p>Parrots are attractive birds that come in different sizes. Their body is cute and chunky, and their wings are long and rounded. They have curved beaks. Parrots can be spotted in different colours like green, yellow, red, and rainbow-coloured. Some parrots have black circles around their necks, called rings. Parrots are found all across the world. They are playful and intelligent birds. They can imitate humans when they hear the same words repeatedly. Parrots eat nuts, fruits, berries, grains, insects, etc. They are the only birds that are able to hold up food to their mouth with their feet and eat, very similar to humans. They are so skilled with their claws that they can peel off a grain, remove it, and eat the kernel. Parrots are one of the most magnificent birds in the world.</p>
+    </div>
+
+</body>
+</html>
